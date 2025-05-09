@@ -33,6 +33,14 @@ func main() {
 	fatia2 := arr[0:3]                         // Criação de uma fatia a partir do array (elementos 0 a 2)
 	fmt.Println(fatia2)                        // Imprime a fatia criada a partir do array
 
+	// APPEND - Adicionando elementos à fatia
+	fatia = append(fatia, 6.3, 5.0, 9.1) // Adiciona o valor 6.6 à fatia
+	fmt.Println(fatia)
+
+	// COPY - Copiar uma fatia para outra fatia
+	copy(fatia2, fatia)
+	fmt.Println(fatia, fatia2)
+
 	// Exemplo de fatiamento com low e high
 	fatia3 := arr[1:4]  // Criação de uma nova fatia (elementos 1 a 3)
 	fmt.Println(fatia3) // Imprime a nova fatia criada
