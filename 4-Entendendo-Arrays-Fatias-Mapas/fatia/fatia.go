@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(x)  // Imprime a fatia vazia (nil)
 
 	// Criação de uma fatia com 4 elementos
-	fatia := make([]float64, 5) // Criação de uma fatia com 4 elementos
+	fatia := make([]float64, 5) // Criação de uma fatia com 5 elementos do tipo float64
 	fmt.Println(fatia)          // Imprime a fatia inicializada com zeros
 
 	// Atribuição de valores à fatia
@@ -56,6 +56,9 @@ func main() {
 	// Exemplo de fatiamento com low e high (sem especificar o low e o high)
 	fatia6 := arr[:]    // Criação de uma nova fatia
 	fmt.Println(fatia6) // Imprime a nova fatia criada
+
+	fatiaExemplo := make([]int, 3, 9)
+	fmt.Println(len(fatiaExemplo)) // Imprime o comprimento da fatia (3)
 
 }
 
