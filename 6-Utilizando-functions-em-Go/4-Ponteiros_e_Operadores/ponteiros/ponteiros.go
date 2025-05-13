@@ -18,5 +18,5 @@ func main() {
 	fmt.Println("Sem uso de ponteiros: ", x)
 	inicial(&x)
 	fmt.Println("Com uso de ponteiros: ", x)
-	fmt.Println("Endereço de x: ", &x)
+	fmt.Println("Endereço de x:  ", &x)
 }
