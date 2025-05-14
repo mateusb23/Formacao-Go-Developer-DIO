@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	if _, err := io.WriteString(os.Stdout, "Hello, World!"); err != nil {
+	if _, err := io.WriteString(os.Stdout, "Boa noite!"); err != nil {
 		log.Fatal(err)
 	}
 }
